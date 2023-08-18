@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+
+    <link rel="stylesheet" href="Dashboardstyle.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav">
+                <div class="logo">
+                  <img src="logo.png" alt="">
+                  <h1>Home Page</h1>
+                </div>
+            <ul>
+                <li><a href="#">
+                    <i class="fas fa-menorah"></i>
+                    <span class="nav-item">Dashboard</span>
+                  </a>
+                  </li>
+                  <li><a href="#">
+                    <i class="fas fa-comment"></i>
+                    <span class="nav-item">Messages</span>
+                  </a>
+                  </li>
+                  <li><a href="#">
+                    <i class="fas fa-database"></i>
+                    <span class="nav-item">Reports</span>
+                  </a>
+                  </li>
+                  <li><a href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    <span class="nav-item">Attendance</span>
+                  </a>
+                  </li>
+                  <li><a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="nav-item">Settings</span>
+                  </a>
+                  </li>
+                  <li><a href="#" class="logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="nav-item">Logout</span>
+                  </a>
+                  </li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <div class="main-top">
+            <h1>Attendance</h1>    
+             <i class="fas fa-user-cog"></i>  
+            </div>
+            <div class="users">
+                <div class="card">
+                <img src="web developer.png">
+                <h4>Daniel Green</h4>    
+                <p>Senior Web Developer</p>
+                <div class="per">
+                    <table>
+
+                        <tr>
+                            <td><span>85%</span></td>
+                            <td><span>87%</span></td>
+                           
+                        </tr>
+                        <tr>
+                            <td>Month</td>
+                            <td>Year</td>
+                           
+                        </tr>
+                    </table>
+                </div>
+                <button>Profile</button>
+                </div>
+
+                  <div class="card">
+                  <img src="UI designer.png">
+                  <h4>Sam Logan</h4>    
+                  <p>UI designer</p>
+                  <div class="per">
+                      <table>
+                          <tr>
+                              <td><span>90%</span></td>
+                              <td><span>85%</span></td>
+                              
+                          </tr>
+                          <tr>
+                              <td>Month</td>
+                              <td>Year</td>
+                          </tr>
+                      </table>
+                  </div>
+                  <button>Profile</button>
+                  </div>
+
+                  <div class="card">
+                    <img src="Programmer.png">
+                    <h4>William Baker</h4>    
+                    <p>Programmer</p>
+                    <div class="per">
+                        <table>
+                            <tr>
+                                <td><span>75%</span></td>
+                                <td><span>83%</span></td>
+                               
+                            </tr>
+                            <tr>
+                                <td>Month</td>
+                                <td>Year</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button>Profile</button>
+                    </div>
+
+                    <div class="card">
+                      <img src="Product Manager.png">
+                      <h4>Luke Megan</h4>    
+                      <p>Product Manager</p>
+                      <div class="per">
+                          <table>
+                              <tr>
+                                  <td><span>65%</span></td>
+                                  <td><span>70%</span></td>
+                                
+                              </tr>
+                              <tr>
+                                  <td>Month</td>
+                                  <td>Year</td>
+                              </tr>
+                          </table>
+                      </div>
+                      <button>Profile</button>
+                      </div>
+                </div>
+
+                <section class="attendance">
+
+                  <div class="Attendance-List">
+
+                    <h1>Attendance List</h1>
+
+                    <table class="table">
+
+                      <thead>
+
+                        <tr>
+
+                          <th>Employee<br>ID</th>
+                          <th>Name</th>
+                          <th>Team</th>
+                          <th>Date</th>
+                          <th>Join<br>time</th>
+                          <th>Leave<br>time</th>
+                          <th>Details</th>
+
+                        </tr>
+
+                        <tbody>
+
+                          <tr class="active">
+                            <td>01</td>
+                            <td>Daniel Green</td>
+                            <td>Development</td>
+                            <td>2023/01/10</td>
+                            <td>9.00am</td>
+                            <td>5.00pm</td>
+                            <td><button>View</button></td>
+                          </tr>
+
+                          <tr class="active">
+                            <td>02</td>
+                            <td>Sam Logan</td>
+                            <td>Design</td>
+                            <td>2023/01/20</td>
+                            <td>8.30am</td>
+                            <td>4.30pm</td>
+                            <td><button>View</button></td>
+                          </tr>
+
+                          <tr class="active">
+                            <td>03</td>
+                            <td>William Baker</td>
+                            <td>Programming</td>
+                            <td>2023/01/10</td>
+                            <td>9.00am</td>
+                            <td>5.00pm</td>
+                            <td><button>View</button></td>
+                          </tr>
+
+                          <tr class="active">
+                            <td>04</td>
+                            <td>Luke Megan</td>
+                            <td>Executive</td>
+                            <td>2023/03/04</td>
+                            <td>10.00am</td>
+                            <td>4.00pm</td>
+                            <td><button>View</button></td>
+                          </tr>
+
+                        </tbody>
+                      </thead>
+
+                    </table>
+                  </div>
+
+                </section>
+        </section>
+    </div>
+
+
+</body>
+</html>
